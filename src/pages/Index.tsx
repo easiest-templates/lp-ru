@@ -65,29 +65,29 @@ const Index = () => {
             </div>
 
             {/* Hero сетка изображений */}
-            <div className="lg:col-span-4 grid grid-cols-2 gap-4">
-              <Card className="aspect-square bg-card overflow-hidden">
+            <div className="lg:col-span-4 grid grid-cols-2 gap-2 auto-rows-fr h-fit self-center">
+              <Card className="aspect-square bg-card overflow-hidden rounded-lg">
                 <img
                   src="https://cdn.poehali.dev/templates/lp/acoustic-guitar-player-in-plant-filled-cafe.jpg"
                   alt="Акустическое выступление"
                   className="w-full h-full object-cover"
                 />
               </Card>
-              <Card className="aspect-square bg-primary/20 overflow-hidden">
+              <Card className="aspect-square bg-primary/20 overflow-hidden rounded-lg">
                 <img
                   src="https://cdn.poehali.dev/templates/lp/lush-green-plants-and-hanging-gardens-in-cafe.jpg"
                   alt="Атмосфера с растениями"
                   className="w-full h-full object-cover"
                 />
               </Card>
-              <Card className="aspect-square bg-accent/20 overflow-hidden">
+              <Card className="aspect-square bg-accent/20 overflow-hidden rounded-lg">
                 <img
                   src="https://cdn.poehali.dev/templates/lp/artisan-coffee-and-pastries-on-wooden-table.jpg"
                   alt="Авторский кофе"
                   className="w-full h-full object-cover"
                 />
               </Card>
-              <Card className="aspect-square bg-card overflow-hidden">
+              <Card className="aspect-square bg-card overflow-hidden rounded-lg">
                 <img
                   src="https://cdn.poehali.dev/templates/lp/intimate-music-venue-with-plants-and-warm-lighting.jpg"
                   alt="Камерная площадка"
